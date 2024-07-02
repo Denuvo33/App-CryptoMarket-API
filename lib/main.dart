@@ -1,4 +1,4 @@
-import 'package:crypto_api/view/splash_screen.dart';
+import 'package:crypto_api/view/landing_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       themeMode: ThemeMode.dark,
       theme: ThemeData.dark(),
-      home: SplashScreen(),
+      home: const LandingScreen(),
       debugShowCheckedModeBanner: false,
     );
   }

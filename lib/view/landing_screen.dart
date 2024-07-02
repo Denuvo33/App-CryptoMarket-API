@@ -5,15 +5,11 @@ import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
 import 'package:rive/rive.dart';
 
-class SplashScreen extends StatelessWidget {
-  const SplashScreen({super.key});
+class LandingScreen extends StatelessWidget {
+  const LandingScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    Future.delayed(Duration(seconds: 4), () {
-      Navigator.pushReplacement(
-          context, MaterialPageRoute(builder: (ctx) => const HomePage()));
-    });
     return Scaffold(
       body: Container(
         width: double.infinity,
@@ -35,6 +31,15 @@ class SplashScreen extends StatelessWidget {
               Text(
                 'Buy your Crypto Assets now',
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22),
+              ),
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.of(context).pushReplacement(
+                      MaterialPageRoute(builder: (ctx) => const HomePage()));
+                },
+                child: Text('Get Started'),
+                style: ButtonStyle(
+                    foregroundColor: MaterialStatePropertyAll(Colors.white)),
               ),
               Spacer(),
               Text(
