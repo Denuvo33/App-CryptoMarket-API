@@ -4,13 +4,10 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This is a Flutter Project to get Crypto market API, Im using ``Riverpod`` as State Management
 
-A few resources to get you started if this is your first Flutter project:
+<img src="https://github.com/Denuvo33/App-CryptoMarket-API/assets/106959180/56cc113f-d42e-45c9-bead-25d086dfff19" width=300 height=670>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<img src="https://github.com/Denuvo33/App-CryptoMarket-API/assets/106959180/ad086d86-40c5-4877-8bd0-837b111d7295" width=300 height=670>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
